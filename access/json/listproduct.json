@@ -1,0 +1,639 @@
+[
+    {
+        "MaSP":1,
+        "TenSP":"Áo hai dây hình học giải trí",
+        "LoaiSP":"Áo",
+        "Hang": "SHEIN",
+        "Discount":20,
+        "Price":150000,
+        "Hinhanh":[ 
+            "gap01/gap01_1.webp",
+            "gap01/gap01_2.webp",
+            "gap01/gap01_3.webp",
+            "gap01/gap01_4.webp"
+                    ],
+        "Mota":[
+        "Độ mới: 90%", 
+        "Màu sắc: màu xanh",
+        "Phong cách: Giải trí",
+        "Kiểu mẫu: Hình học",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":5,
+        "Size":"L"
+    },
+    {
+        "MaSP":2,
+        "TenSP":"Áo nữ Xù nhỏ cắt loại bướm giải trí",
+        "LoaiSP":"Áo",
+        "Hang": "ZARA",
+        "Discount":0,
+        "Price":80000,
+        "Hinhanh": [
+                "gap02/gap02_1.webp",
+                "gap02/gap02_2.webp",
+                "gap02/gap02_3.webp",
+                "gap02/gap02_4.webp"
+        ],
+        "Mota":[
+            "Độ mới: 90%", 
+            "Màu sắc: màu xanh",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":3,
+        "Size":"Freesize"
+        
+    },
+    {
+        "MaSP":3,
+        "TenSP":"Áo thun nữ màu trơn giải trí",
+        "LoaiSP":"Áo",
+        "Hang": "LABB",
+        "Discount":0,
+        "Price":120000,
+        "Hinhanh": [
+            "gap03/gap03_1.webp",
+            "gap03/gap03_2.webp",
+            "gap03/gap03_3.webp",
+            "gap03/gap03_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 90%", 
+        "Màu sắc: màu nâu",
+        "Phong cách: Giải trí",
+        "Kiểu mẫu: Hình học",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":10,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":4,
+        "TenSP":"Áo sơ mi chất rắn túi mặt trước nút thông qua thả vai",
+        "LoaiSP":"Áo",
+        "Hang": "H&M",
+        "Discount":30,
+        "Price":150000,
+        "Hinhanh": [
+            "gap04/gap04_1.webp",
+            "gap04/gap04_2.webp",
+            "gap04/gap04_3.webp",
+            "gap04/gap04_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 99%", 
+        "Màu sắc: Màu xanh ",
+        "Phong cách: Giải trí",
+        "Kiểu mẫu: Hình học",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":10,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":5,
+        "TenSP":" Đầm Thắt lưng khối màu thanh lịch",
+        "LoaiSP":"Váy",
+        "Hang": "JUNO",
+        "Discount":10,
+        "Price":250000,
+        "Hinhanh": [
+            "gap05/gap05_1.webp",
+            "gap05/gap05_2.webp",
+            "gap05/gap05_3.webp",
+            "gap05/gap05_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 98%", 
+        "Màu sắc: màu be",
+        "Phong cách: Gợi cảm",
+        "Kiểu mẫu: màu trơn",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":2,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":6,
+        "TenSP":"Đầm viền lá sen Nút phía trước Thực vật Tất cả trên in Boho",
+        "LoaiSP":"Váy",
+        "Hang": "ZARA",
+        "Discount":0,
+        "Price":190000,
+        "Hinhanh": [
+            "gap06/gap06_1.webp",
+            "gap06/gap06_2.webp",
+            "gap06/gap06_3.webp",
+            "gap06/gap06_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 92%", 
+        "Màu sắc: Đen và trắng",
+        "Phong cách: Giải trí",
+        "Kiểu mẫu: Hình học",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":4,
+        "Size":"S"
+    },
+    {
+        "MaSP":7,
+        "TenSP":"Váy nữ Tách cao màu trơn Giải trí",
+        "LoaiSP":"Váy",
+        "Hang": "H&M",
+        "Discount":0,
+        "Price":100000,
+        "Hinhanh": [
+            "gap07/gap07_1.webp",
+            "gap07/gap07_2.webp",
+            "gap07/gap07_3.webp",
+            "gap07/gap07_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 94%", 
+        "Màu sắc: màu đen",
+        "Phong cách: Giải trí",
+        "Kiểu mẫu: Hình học",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":5,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":8,
+        "TenSP":"Váy nữ Chia màu trơn Giải trí ",
+        "LoaiSP":"Váy",
+        "Hang": "ZARA",
+        "Discount":0,
+        "Price":90000,
+        "Hinhanh": [
+            "gap08/gap08_1.webp",
+            "gap08/gap08_2.webp",
+            "gap08/gap08_3.webp",
+            "gap08/gap08_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 90%", 
+        "Màu sắc: màu đen",
+        "Phong cách: Giải trí",
+        "Kiểu mẫu: Hình học",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":1,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":9,
+        "TenSP":"Quần ống loe Đường may Chi tiết",
+        "LoaiSP":"Quần",
+        "Hang": "H&M",
+        "Discount":10,
+        "Price":140000,
+        "Hinhanh": [
+            "gap09/gap09_1.webp",
+            "gap09/gap09_2.webp",
+            "gap09/gap09_3.webp",
+            "gap09/gap09_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 90%", 
+        "Màu sắc: màu nâu",
+        "Phong cách: Giải trí",
+        "Kiểu mẫu: Hình học",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":3,
+        "Size":"S"
+    },
+    {
+        "MaSP":10,
+        "TenSP":"Váy nữ Chia Họa tiết hoa Boho",
+        "LoaiSP":"Váy",
+        "Hang": "JUNO",
+        "Discount":0,
+        "Price":90000,
+        "Hinhanh": [
+            "gap10/gap10_1.webp",
+            "gap10/gap10_2.webp",
+            "gap10/gap10_3.webp",
+            "gap10/gap10_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 95%", 
+        "Màu sắc: màu be",
+        "Phong cách: Giải trí",
+        "Kiểu mẫu: Hình học",
+        "Sợi vải: Căng nhẹ",
+        "Vật liệu: Polyester",
+        "Thành phần: 95% Polyester, 5% Bông vải thun",
+        "* Model: 1m67 - 46 kg", 
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":6,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":11,
+        "TenSP":"Kính râm ống kính màu khung vuông",
+        "LoaiSP":"Phụ kiện",
+        "Hang": "JUNO",
+        "Discount":0,
+        "Price":69000,
+        "Hinhanh": [
+            "gap11/gap11_1.webp",
+            "gap11/gap11_2.webp",
+            "gap11/gap11_3.webp",
+            "gap11/gap11_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 100%", 
+        "Màu sắc: màu be",
+        "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"],
+        "Soluong":10,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":12,
+        "TenSP":"Hoa trang trí tóc Claw",
+        "LoaiSP":"Phụ kiện",
+        "Hang": "JUNO",
+        "Discount":0,
+        "Price":45000,
+        "Hinhanh": [
+            "gap12/gap12_1.webp",
+            "gap12/gap12_2.webp",
+            "gap12/gap12_3.webp",
+            "gap12/gap12_4.webp"
+    ],
+        "Mota":[
+        "Độ mới: 100%", 
+        "Màu sắc: màu xanh",
+        "Phong cách: Giải trí"
+        ],
+        "Soluong":10,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":13,
+        "TenSP":"Váy nữ Xù nhỏ Con số Chắp vá Thanh lịch",
+        "LoaiSP":"Váy",
+        "Hang": "SHEIN",
+        "Discount":30,
+        "Price":145000,
+        "Hinhanh": [
+            "gap13/gap13_1.webp",
+            "gap13/gap13_3.webp",
+            "gap13/gap13_3.webp",
+            "gap13/gap13_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 99%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":10,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":14,
+        "TenSP":"Áo nữ Xù nhỏ Nút phía trước Con số Gợi cảm",
+        "LoaiSP":"Áo",
+        "Hang": "SHEIN",
+        "Discount":10,
+        "Price":115000,
+        "Hinhanh": [
+            "gap14/gap14_1.webp",
+            "gap14/gap14_2.webp",
+            "gap14/gap14_3.webp",
+            "gap14/gap14_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 99%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":10,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":15,
+        "TenSP":"Kính thời trang khung vuông Rhinestone trang trí",
+        "LoaiSP":"Phụ kiện",
+        "Hang": "ZARA",
+        "Discount":0,
+        "Price":99000,
+        "Hinhanh": [
+            "gap15/gap15_1.webp",
+            "gap15/gap15_2.webp",
+            "gap15/gap15_3.webp",
+            "gap15/gap15_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 99%", 
+            "Màu sắc: màu nâu",
+            "CẢNH BÁO: Mắt kính thời trang. Không được đeo bên ngoài để bảo vệ mắt chống lại ánh sáng mặt trời mạnh. Không được thiết kế hoặc dự định sử dụng trong chơi của trẻ em"
+        ],
+        "Soluong":20,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":16,
+        "TenSP":"Váy nữ Chia Gân đan màu trơn Thanh lịch",
+        "LoaiSP":"Váy",
+        "Hang": "ZARA",
+        "Discount":0,
+        "Price":99000,
+        "Hinhanh": [
+            "gap16/gap16_1.webp",
+            "gap16/gap16_2.webp",
+            "gap16/gap16_3.webp",
+            "gap16/gap16_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 92%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":5,
+        "Size":"M"
+    },
+    {
+        "MaSP":17,
+        "TenSP":"Váy nữ Dây kéo Xù màu trơn Giải trí",
+        "LoaiSP":"Váy",
+        "Hang": "SHEIN",
+        "Discount":30,
+        "Price":180000,
+        "Hinhanh": [
+            "gap17/gap17_1.webp",
+            "gap17/gap17_2.webp",
+            "gap17/gap17_3.webp",
+            "gap17/gap17_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 98%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":10,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":18,
+        "TenSP":"Váy nữ màu trơn Giải trí",
+        "LoaiSP":"Váy",
+        "Hang": "SHEIN",
+        "Discount":20,
+        "Price":200000,
+        "Hinhanh": [
+            "gap18/gap18_1.webp",
+            "gap18/gap18_2.webp",
+            "gap18/gap18_3.webp",
+            "gap18/gap18_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 95%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":10,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":19,
+        "TenSP":"Váy nữ Sọc ca rô Sẵn sàng",
+        "LoaiSP":"Váy",
+        "Hang": "ZARA",
+        "Discount":0,
+        "Price":210000,
+        "Hinhanh": [
+            "gap19/gap19_1.webp",
+            "gap19/gap19_2.webp",
+            "gap19/gap19_3.webp",
+            "gap19/gap19_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 99%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":1,
+        "Size":"S"
+    },
+    {
+        "MaSP":20,
+        "TenSP":"Quần nữ Túi Uốn nếp màu trơn",
+        "LoaiSP":"Quần",
+        "Hang": "SHEIN",
+        "Discount":10,
+        "Price":270000,
+        "Hinhanh": [
+            "gap20/gap20_1.webp",
+            "gap20/gap20_2.webp",
+            "gap20/gap20_3.webp",
+            "gap20/gap20_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 92%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":1,
+        "Size":"M"
+    },
+    {
+        "MaSP":21,
+        "TenSP":"Vòng tay Đúng mốt",
+        "LoaiSP":"Phụ kiện",
+        "Hang": "SHEIN",
+        "Discount":0,
+        "Price":50000,
+        "Hinhanh": [
+            "gap21/gap21_1.webp",
+            "gap21/gap21_2.webp",
+            "gap21/gap21_3.webp",
+            "gap21/gap21_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 100%", 
+            "Màu sắc: màu vàng",
+            "Phong cách: Giải trí"
+        ],
+        "Soluong":20,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":22,
+        "TenSP":"Vòng tay trang trí bằng bóng ",
+        "LoaiSP":"Phụ kiện",
+        "Hang": "JUNO",
+        "Discount":0,
+        "Price":45000,
+        "Hinhanh": [
+            "gap22/gap22_1.webp",
+            "gap22/gap22_2.webp",
+            "gap22/gap22_3.webp",
+            "gap22/gap22_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 100%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí"
+        ],
+        "Soluong":19,
+        "Size":"Freesize"
+    },
+    {
+        "MaSP":23,
+        "TenSP":"Áo hai dây Nút phía trước Sọc ca rô Giải trí",
+        "LoaiSP":"Áo",
+        "Hang": "SHEIN",
+        "Discount":20,
+        "Price":210000,
+        "Hinhanh": [
+            "gap23/gap23_1.webp",
+            "gap23/gap23_2.webp",
+            "gap23/gap23_3.webp",
+            "gap23/gap23_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 95%", 
+            "Màu sắc: màu nâu",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":1,
+        "Size":"S"
+    },
+    {
+        "MaSP":24,
+        "TenSP":"MOD Áo thun nữ Gân đan màu trơn Giải trí",
+        "LoaiSP":"Áo",
+        "Hang": "JUNO",
+        "Discount":0,
+        "Price":120000,
+        "Hinhanh": [
+            "gap24/gap24_1.webp",
+            "gap24/gap24_2.webp",
+            "gap24/gap24_3.webp",
+            "gap24/gap24_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 95%", 
+            "Màu sắc: màu đen",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":1,
+        "Size":"M"
+    },
+    {
+        "MaSP":25,
+        "TenSP":"DAZY Áo thun nữ màu trơn Giải trí",
+        "LoaiSP":"Áo",
+        "Hang": "SHEIN",
+        "Discount":0,
+        "Price":99000,
+        "Hinhanh": [
+            "gap25/gap25_1.webp",
+            "gap25/gap25_2.webp",
+            "gap25/gap25_3.webp",
+            "gap25/gap25_4.webp"
+    ],
+        "Mota":[
+            "Độ mới: 92%", 
+            "Màu sắc: màu be",
+            "Phong cách: Giải trí",
+            "Kiểu mẫu: Hình học",
+            "Sợi vải: Căng nhẹ",
+            "Vật liệu: Polyester",
+            "Thành phần: 95% Polyester, 5% Bông vải thun",
+            "* Model: 1m67 - 46 kg", 
+            "* *Lưu ý: Sản phẩm là hàng 2hand được Kho tuyển chọn kỹ càng, mỗi mẫu có số lượng có hạn nên Khách tham khảo số đo sản phẩm giúp kho nhé !"
+        ],
+        "Soluong":10,
+        "Size":"Freesize"
+    }
+    
+
+]

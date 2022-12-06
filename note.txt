@@ -1,0 +1,20 @@
+dùng font-size : 62.5% 
+để đơn vị rem bằng 1/10px
+ví dụ 12 px là 1.2rem
+chưa làm trasition của ô mô tả tragn chi tiết
+marginTop :92px;
+note: đổi font chữ header và footer
+từ tablet trở xuống thì thành 
+marginTop :128px
+
+--Với lại phần địa chỉ chưa có làm bấm vào tỉnh này thì lọc ra đc các huyện rồi các xã
+--Vẫn chưa làm lọc được các năm
+--phần bấm vào từng trạng thái giao hàng làm lướt lướt đẹp như cái header
+mã thành công của otp là 123456
+cách thêm header footer vào trang
+b1: link base.js vào trang
+b2: link base.css vào trang
+b3: cho dòng này lên đầu trang 
+        <nav class="navbar"></nav>
+b4: cho dòng này vào cuối trang:
+        <div class="footer"></div>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tất cả sản phẩm</title>
+    <!-- <link rel="stylesheet" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <link rel="preconnect" href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700subset=vietnamese">
+    <link rel="preload" href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700subset=vietnamese" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700subset=vietnamese" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./access/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/access/css/base.css">
+    <link rel="stylesheet" href="./access/css/trangsp.css">
+    <script>
+        window.onload = function () {
+            LoadJson();
+        }
+    </script>
+</head>
+<body >
+    <nav class="navbar"></nav> 
+    <div class="body">
+        <nav aria-label="breadcrumb ">
+            <ol class="breadcrumb ">
+              <li class="breadcrumb-item"><a href="./trangchu.html">Trang chủ</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Sản Phẩm</li>
+            </ol>
+        </nav>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-3 "> 
+                    <div class=" col__left">
+                        <ul>
+                            <li class="category_list">
+                                <a>Sản phẩm - </a>
+                                <ul>
+                                    <li class="category_item"><button class="type_category">Váy -</button></li>
+                                    <li class="category_item"><button class="type_category">Áo -</button></li>
+                                    <li class="category_item"><button class="type_category">Phụ kiện -</button></li>
+                                    <li class="category_item"><button class="type_category">Quần -</button></li>
+                                </ul>
+                            </li>
+                            <li class="category_list">
+                                <a>Thương hiệu - </a>
+                                <ul>
+                                    <li class="category_item"><input  class="brand_category" value="SHEIN" type="checkbox" ><span class="checkbox_label">SHEIN -</span></input></li>
+                                    <li class="category_item"><input  class="brand_category" value="ZARA" type="checkbox" ><span class="checkbox_label">ZARA -</span></input></li>
+                                    <li class="category_item"><input  class="brand_category" value="H&M" type="checkbox" ><span class="checkbox_label">H&M -</span></input></li>
+                                    <li class="category_item"><input  class="brand_category" value="ELGE" type="checkbox" ><span class="checkbox_label">ELGE -</span></input></li>
+                                    <li class="category_item"><input  class="brand_category" value="JUNO" type="checkbox" ><span class="checkbox_label">JUNO -</span></input></li>
+                                    <li class="category_item"><input  class="brand_category" value="LABB" type="checkbox" ><span class="checkbox_label">LABB -</span></input></li>
+                                    <li class="category_item"><input  class="brand_category" value="MWC" type="checkbox" ><span class="checkbox_label">MWC -</span></input></li>
+                                </ul>
+                            </li>
+                            <li class="category_list">
+                                <a>Giá sản phẩm - </a>
+                                <ul>
+                                    <li class="category_item"><input  class="price_category" value="100000" type="checkbox" ><span class="checkbox_label">Dưới 100.000<u>đ</u> -</span></input></li>
+                                    <li class="category_item"><input  class="price_category" value="200000" type="checkbox" ><span class="checkbox_label">100.000<u>đ</u> - 200.000<u>đ</u> -</span></input></li>
+                                    <li class="category_item"><input  class="price_category" value="300000" type="checkbox" ><span class="checkbox_label">200.000<u>đ</u> - 300.000<u>đ</u> -</span></input></li>
+                                    <li class="category_item"><input  class="price_category" value="400000" type="checkbox" ><span class="checkbox_label">300.000<u>đ</u> - 400.000<u>đ</u> -</span></input></li>
+                                </ul>
+                            </li>
+                            <li class="btn_list_container">
+                                <button id="btn_list" >Lọc sản phẩm</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="col_right">
+                        <div class="product__container">
+                            <div class="product__container__header">
+                                <h3 id="Product__header-title" class="category_item"><button id="all-product">Tất cả sản phẩm</button></h3>
+                            </div>
+                            <div class="container home-product-item-wrapper">
+                                <form id="showSP" action="./chitietsp.html" method="get">
+                                    <div class="row" id="total_product"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="footer "></div>
+
+    <script src="./access/js/base.js"></script>
+    <script src="./access/js/trangsp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+</html>

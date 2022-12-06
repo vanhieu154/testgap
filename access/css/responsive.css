@@ -1,0 +1,41 @@
+@media screen and (max-width: 1024px) and (min-width: 700px){
+  /* .row {   
+     flex-direction: column;
+   } */
+   .title__left{
+    font-size: 1rem;
+  }
+  .title__tinTuc{
+    font-size: 1.6rem;
+  }
+  .title__blog--size{
+    font-size: 0.6rem;
+  }
+  .title__blog--large{
+    font-size: 1rem;
+  }
+  .title__right{
+    font-size: 1rem;
+  }
+ }
+
+ @media screen and (max-width: 700px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  .box::after{
+    margin-top: 50px;
+  }
+  .title__tinTuc{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0;
+  }
+  .col__right{
+    padding-right: 30px;
+  }
+  .logo{
+    display: none;
+  }
+}

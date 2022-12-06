@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right, #724f36e4, #D2BEB4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    padding: 20px;
+    /* max-width: 900px; */
+    width: 60%;
+}
+
+.container::after{
+    background: rgba(255, 255, 255, .15);
+
+}
+
+.header{
+    font-weight: bold;
+}
+
+.col-form-label{
+    /* width: 180px; */
+    padding-left: 20px;
+    align-items: center;
+    font-weight: bold;   
+}
+
+input{
+    width: 60%;
+}
+
+.middle-text{
+    padding: 20px;
+}
+
+#password{
+    position: relative;
+    align-items: center;
+}
+.fa-eye{
+    flex: 2;
+    position: absolute;
+    cursor: pointer;
+    color: #6B4932;
+    margin-right:10px ;
+}
+.password-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+button{
+    border: white;
+    border-radius: 5px;
+    color: white;
+    background-color: #6B4932;
+    padding:5px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+}
+
+.button{
+    margin-top: 10px;
+    margin-left: 45%;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Responsive */
+
+
+@media (max-width: 400px) {
+    .container {
+        width: 320px;
+        height: 600px;
+        padding: 2rem;
+    }
+    .container label{
+        padding: 15px;
+    }
+    .container .middle-text{
+        padding: 15px;
+    }
+}

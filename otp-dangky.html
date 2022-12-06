@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link rel="stylesheet" href="./access/css/otp.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,0,0" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="./access/css/base.css">
+</head>
+<body>
+    <div class="input-otp-container">
+            <div class="input-otp-header">
+                Vui lòng nhập mã OTP để xác minh </div>
+                <div class="text">Mã xác minh của bạn sẽ được gửi bằng tin nhắn đến <br>
+                <span id="phoneNumber">000000000</span></div>   
+        <!-- <form action="./dangkythanhcong.html" method="get"  data-autosubmit="false" autocomplete="off"> -->
+            <div class="mb-6 text-center">
+                <div id="otp" class="flex justify-center">
+                <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="number" id="first" maxlength="1" autofocus required/>
+                <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="number" id="second" maxlength="1" pattern="[0-9]*" required/>
+                <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="number" id="third" maxlength="1" required/>
+                <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="number" id="fourth" maxlength="1" required/>
+                <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="number" id="fifth" maxlength="1" required/>
+                <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="number" id="sixth" maxlength="1" required/>
+                </div>
+            </div>
+            <div >Bạn vẫn chưa nhận được?
+                <a href="#">Gửi lại</a>
+            </div>
+            <div class="button">
+            <!-- <button type="submit">Xác nhận</button> -->
+                <button onclick="Verify()">Xác nhận</button>
+            </div>
+        <!-- </form> -->
+    </div>
+    <script>
+        var temp= localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user')):[]
+        document.getElementById('phoneNumber').innerHTML=temp[temp.length-1].phone
+        function Verify(){
+        const otp1=document.getElementById('first').value;
+        const otp2=document.getElementById('second').value;
+        const otp3=document.getElementById('third').value;
+        const otp4=document.getElementById('fourth').value;
+        const otp5=document.getElementById('fifth').value;
+        const otp6=document.getElementById('sixth').value;
+            if(otp1==1 && otp2==2 && otp3==3 && otp4==4 && otp5==5 && otp6==6){
+                window.location="./dangkythanhcong.html"
+            }else{
+                alert("Nhập mã otp sai vui lòng nhập lại")
+            }
+        }
+    </script>
+</body>
+<script src="./access/js/otp.js"></script>
+</html>
