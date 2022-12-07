@@ -1,3 +1,14 @@
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-105px";
+    document.getElementById("header").style.marginTop = "0px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 function user( phone, nameDK, pass,gender){
     this.phone =phone;
     this.nameDK =nameDK;

@@ -15,15 +15,46 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="number"] {
     -moz-appearance: textfield;
 }
+.h2, h2 {
+  font-size: calc(1.325rem + .9vw);
+}
+.h3, h3 {
+  font-size: calc(1.3rem + .6vw);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.header{
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  background-color: var(--white-color);
+  transition: top 0.8s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
+
   background: linear-gradient(to right, #724f36e4, #D2BEB4);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
   font-family: 'Quicksand';
+  flex-direction: column;
 }
 
 .input-otp-container .input-otp-header{
@@ -32,6 +63,7 @@ body {
 }
 
 .input-otp-container{
+  margin: 92px 0 40px;
   padding: 10px 0 10px;
   background-color: white;
   background: rgba(255, 255, 255, .5);

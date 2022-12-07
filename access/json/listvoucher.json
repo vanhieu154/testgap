@@ -1,0 +1,71 @@
+[
+    {
+        "ID":1,
+        "MaVoucher":"GAP2002DISCOUNT1",
+        "TenVoucher":"Giảm 30%",
+        "Giatrigiam":30,
+        "Noidung":"Đơn tối thiểu 800k không giới hạn giá trị khuyến mãi tối đa",
+        "Ngaybatdau":"06/12/2022",
+        "Ngayketthu":"31/12/2022"
+    },
+    {
+        "ID":2,
+        "MaVoucher":"GAP2002DISCOUNT2",
+        "TenVoucher":"Giảm 10%",
+        "Giatrigiam":10,
+        "Noidung":"Đơn tối thiểu 800k không giới hạn giá trị khuyến mãi tối đa",
+        "Ngaybatdau":"06/12/2022",
+        "Ngayketthu":"31/12/2022"
+    },
+    
+    {
+        "ID":3,
+        "MaVoucher":"GAP2002DISCOUNT3",
+        "TenVoucher":"Giảm 100K",
+        "Giatrigiam":100000,
+        "Noidung":[
+            "Đơn tối thiểu 800k không giới hạn giá trị khuyến mãi tối đa",
+            "Chỉ áp dụng cho phương thức thanh toán trả trước"
+        ],
+        "Ngaybatdau":"01/11/2022",
+        "Ngayketthu":"31/12/2022"
+    },
+    
+    {
+        "ID":4,
+        "MaVoucher":"GAP2002DISCOUNT4",
+        "TenVoucher":"Giảm 10%",
+        "Giatrigiam":10,
+        "Noidung":"Đơn tối thiểu 100K",
+        "Ngaybatdau":"06/12/2022",
+        "Ngayketthu":"31/12/2022"
+    },
+    
+    {
+        "ID":5,
+        "MaVoucher":"GAP2002DISCOUNT5",
+        "TenVoucher":"Giảm 10%",
+        "Giatrigiam":15000,
+        "Noidung":"Đơn tối thiểu 300K giảm tối đa 15k",
+        "Ngaybatdau":"06/12/2022",
+        "Ngayketthu":"31/12/2022"
+    },
+    {
+        "ID":6,
+        "MaVoucher":"GAP2002DISCOUNT6",
+        "TenVoucher":"Giảm 10%",
+        "Giatrigiam":30000,
+        "Noidung":"Đơn tối thiểu 300K giảm tối đa 30K",
+        "Ngaybatdau":"06/12/2022",
+        "Ngayketthu":"31/12/2022"
+    },
+    {
+        "ID":7,
+        "MaVoucher":"GAP2002DISCOUNT7",
+        "TenVoucher":"Giảm 15%",
+        "Giatrigiam":40000,
+        "Noidung":"Đơn tối thiểu 300K giảm tối đa 40K",
+        "Ngaybatdau":"06/12/2022",
+        "Ngayketthu":"31/12/2022"
+    }
+]

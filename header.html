@@ -92,13 +92,14 @@
                          <p class="home-product-item__price-current" id="home-product-item__price-current"></p>
                         </div>
                         <div class="header__cart_container-btn">
-                         <button class="btn-header"><a href="./giohangtrong.html">Xem giỏ hàng</a></button>
-                         <button class="btn-header"><a href="./thanhtoan.html">Thanh toán</a></button>
+                         <button class="btn-header" onclick="toGioHang()"><a >Xem giỏ hàng</a></button>
+                         <button class="btn-header" onclick="toThanhToan()"><a >Thanh toán</a></button>
                         </div>
                      </div>
                 </div>
             </div>
         </div>
+        
         <div class="header__search-bar">
             <input type="text" class="search-bar__input" id="search-bar__input1" placeholder="Tìm kiếm sản phẩm">
             <button class="search-bar__btn" onclick="pSearch1()">
@@ -117,7 +118,18 @@
 .header__cart_container-btn a:hover  {
     color: #fff;
 }
-
+.gg a{
+    color: #333;
+}
+.btn-header:hover a{
+    color:#fff
+}
+.fb a{
+    color: #333;
+}
+.btn-header:hover a{
+    color:#fff
+}
 .top_header{
     height: 30px;
     width: 100%;
@@ -646,6 +658,9 @@ ul{
     flex-direction: row;
     align-items: center;
 
+}
+.header__cart-item__header{
+    width: 300px;
 }
 .header__cart-item__quantity span, .header__cart-item__quantity input{
     padding:0 10px;

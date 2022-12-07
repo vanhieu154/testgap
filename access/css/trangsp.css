@@ -96,7 +96,13 @@ li{
 }
 /* PRODUCT */
 .row{
-    /* justify-content: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+.product-not-found{
+    /* align-items: center; */
+    margin: auto;
+    padding: auto;
 }
 .home-product-item__img{
     border-radius: 5px;

@@ -143,7 +143,6 @@ function LoadJson(){
                     document.getElementById("product__btn-add").onclick=function(){
                         if(sessionStorage.getItem('checkLogin')==1){
                             var productQuantity=Number.parseInt(amount);
-                            // console.log(productQuantity);
                             var addSP = sessionStorage.getItem("Cart") ? JSON.parse(sessionStorage.getItem("Cart")) : [];
                             price = Number.parseInt(p.Price);
                             for(p of data){
@@ -185,14 +184,6 @@ function LoadJson(){
             throw new Error(err.message);
         })
         }   
-// var x=60
-// console.log(x);
-// let minus=()=>{
-//     x--;
-// console.log(x);
-
-// }
-// setInterval(minus,1000);
 let showDescription=()=>{
     document.getElementById("product__description-detail").classList.toggle("activate");
     document.getElementById("minus-icon-1").classList.toggle("deactivate");

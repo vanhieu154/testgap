@@ -3,6 +3,9 @@ body{
     overflow-x: hidden;
     padding-bottom: 100px;
 }
+.row{
+    justify-content: center;
+}
 *{
     font-size: 1.6rem;
 }
@@ -306,15 +309,18 @@ margin-bottom: 10px;
 
 /* Chờ xác nhận */
 .myaccount-body-right-top-wait-confirm{
-    border: 2px solid rosybrown;
-    border-radius: 10px;
-    margin: 30px;
-    justify-content: space-around;
     display: none;
+    margin: 30px;
     
 }
-.myaccount-body-right-top-wait-confirm p{
+#wait-confirm-container{
+    border: 2px solid rosybrown;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+#wait-confirm-container p{
     margin-top: 15px;
+
 }
 .hr_style{
     width: 90%;
@@ -340,11 +346,11 @@ margin-bottom: 10px;
     margin-right: 10%;
 }
 .total__bill p{
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 .total__bill span{
     color: red;
-    font-size: 32px;
+    font-size: 3.0rem;
 }
 .btn-view{
     text-align: center;

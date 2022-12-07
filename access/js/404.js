@@ -1,22 +1,3 @@
-// --------------------------------Modal-------------------------------------
-const modal = document.querySelector(".modal");
-const modalClose = document.querySelector(".modal_close");
-function showModal() {
-modal.classList.add("open");
-}
-function hideModal() {
-modal.classList.remove("open");
-}
-if(sessionStorage.getItem('showModal')!=1){
-    showModal(); 
-    sessionStorage.setItem('showModal',1);
-}
-modalClose.addEventListener("click", hideModal);
-window.onclick = function(event) {
-  if (event.target.matches(".modal")) {
-    hideModal();
-  }
-}
 function LoadJson(){
     fetch("./access/json/listproduct.json")
     .then(function(response){
@@ -74,21 +55,16 @@ function LoadJson(){
                     html+="</div>";
                     document.getElementById(place).innerHTML=html;
                 }
-            }
+            }    
             showProduct(data,data.length-6,data.length,"new_product");   
-            let product=[];
-            var j=0;
-            for(p of data){
-                if(p.Discount>0){
-                    product[j]=p;
-                    j++;   
-                    // localStorage.setItem('product',product[j]);
-                }
-            }
-            showProduct(product,0,6,"discount_product");   
         }
     )
     .catch(function(err){
         throw new Error(err.message);
     })
+}
+function re_search() {
+    let pS=document.getElementById('search').value;
+    sessionStorage.setItem('pSearch',pS); 
+    window.location='/trangsp.html';
 }

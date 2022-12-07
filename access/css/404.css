@@ -1,5 +1,22 @@
-body{
-    overflow-x: hidden;
+:root {
+    --darkpink: #b8a898;
+    --lightpink: #d2beb4;
+    --darkbrown: #6B4932;
+    --black: black;
+    --white: #ffffff;
+    --grey:#EDEDED ;
+    --darkgrey: #908B8B; 
+  }
+  *{
+    /* font-size: 1.6rem; */
+    /* overflow-x: hidden; */
+  }
+  a{
+    color: var(--black);
+    text-decoration: none;
+}
+.form-control{
+    font-size: 1.6rem;
 }
 .breadcrumb{
     background-color: var(--lightpink);
@@ -8,103 +25,72 @@ body{
     padding-left: 70px;
     margin-top: 92px;
 }
-.breadcrumb>li{
+.breadcrumb>li ,.breadcrumb>li a{
     font-size: 1.2rem;
-}
-a{
-    color: var(--black);
-    text-decoration: none;
-}
-/* header */
-.voucher-hot__header{
-    margin-left: 50px;
-}
-.voucher-hot__header h1{
-    padding: 22px  30px 22px 60px;
-    background-color: #E3D5CA;
-    color: #724F36;
-    font-weight: 700;
-    font-size: 3.2rem;
-    line-height: 30px;
 }
 
 .row{
     justify-content: center;
-    /* align-items: center; */
-    overflow: hidden;
 }
-.voucher-hot__100k{
-    margin-top: 30px ;
-    border: 2px solid #724F36;
+  .cothebancungthich{
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 1.6rem;
+  }
+  .timkiem{
+    position: relative; 
+    color: var(--darkbrown);
+}
+.khongtimthay{
+    color: var(--darkbrown);
+    font-size: 2rem;
 }
 
-.voucher-hot__100k-img{
-    padding: 35px;
-}
-.voucher-hot__100k-content{
-    padding: 25px 21px 25px 0;
-}
-.voucher-hot__100k-content h1,.voucher-hot-content h1{
-    font-weight: 700;
-}
-.voucher-hot__100k-content p,.voucher-hot-content p{
-    font-size: 1.6rem;
-    font-weight: 500;
-}
-.voucher-hot__100k-save,.voucher-hot-save{
-    background-color: #724F36;
-    border: none;
-    padding: 3px;
-    font-size: 1.6rem;
-    color: #fff;
-}
-.voucher-hot{
-    border: 2px solid #724F36;
-    margin: 20px;
-}
-.voucher-hot-img{
-    padding: 20px 10px 20px 0;
-}
-.voucher-hot-save{
-    padding: 2px 60px;
-    margin-bottom: 5px;
-}
-.voucher-hot-content{
-    margin-top: 5px;
-}
-.countDown-container{
+.bar{
     text-align: center;
-    margin: 50px;
-
+    display: block;
+    width: 100px;
+    height: 0px;
+    margin-top: 2px;
+    border-radius: 30px;
+    border: 2px solid var(--darkbrown);
+    background-color: var(--darkbrown);
+} 
+.icon__notsearch{
+    color: var(--lightpink);
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
-.countDown-container h1{
-    font-weight: 700;
-    margin-bottom: 40px;
-    font-size: 3.2rem;
-}
-.countDown-time-container{
-    background-color: var(--background-color);
-    color: #724F36;
-    margin: 2px;
-
-}
-.countDown-time{
-    background-color: #fff;
-    margin: 14px 10px;
-    font-size: 4.5rem;
-    font-weight: 700;
-    /* padding: 5px px; */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-
-.salesProduct-header{
-    position: relative;
-    /* margin-left: 100px; */
+.bar--timkiem{
+    background-color: var(--grey);
+    margin-top: 30px;
+    width: 500px;
+}
+button{
+    background-color: var(--darkbrown);
+}
+.icon__search{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.product__header{
-    margin: 30px 0;
+.button__search:hover{
+    background-color: var(--darkpink);
+}
+.button__search{
+    border: var(--darkbrown) 0,5px solid;
+}
+.form-control{
+    background-color: var(--grey);
+    border: none;
 }
 .home-product-item__img{
     border-radius: 5px;
@@ -302,84 +288,15 @@ a{
     color: var(--white-color);
     font-weight: 600;
 }
-.voucher-today-header{
-    margin-left: 50px;
-}
-.voucher-today-container{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-.voucher-today-img{
-    padding: 5px;
-}
-.voucher-today{
-    border: 2px solid #B5838D;
-    margin: 10px ;
-}
-.voucher-today__content h2{
-    font-weight: 700;
-}
-.voucher-today__content p{
-    font-size: 1.4rem;
-}
-.voucher-today-save{
-    background-color: #724F36;
-    border: none;
-    padding: 3px;
-    font-size: 1.6rem;
-    color: #fff;
-    padding: 2px 60px;
-    margin-bottom: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*pc*/
-@media (min-width: 1024px) {
-    
-}
-
-/*tablet*/
 @media (max-width: 1023px) and (min-width: 740px) {
     .breadcrumb{
         margin-top: 128px;
     }
-    .voucher-hot__100k-content p, .voucher-hot-content p {
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
-    .voucher-hot-content h1 {
-        font-weight: 700;
-        font-size: 2rem;
-    }
-
 }
 
 /*mobile*/
 @media (max-width: 740px) {
-
+    .breadcrumb{
+        margin-top: 128px;
+    }
 }

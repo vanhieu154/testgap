@@ -7,6 +7,9 @@
 textarea.form-control,input.form-control,select.form-select {
     font-size: 1.6rem;
 }
+.text-right{
+    text-align: right;
+}
 .body{
     margin-top: 92px;
 }

@@ -11,16 +11,16 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 const nav = document.querySelector('.navbar')
-fetch('/header.html')
+fetch('./header.html')
 .then(res=>res.text())
 .then(data=>{
     nav.innerHTML=data
 })
 const footer = document.querySelector('.footer')
-fetch('/footer.html')
+fetch('./footer.html')
 .then(res=>res.text())
 .then(data=>{
-    footer  .innerHTML=data
+    footer.innerHTML=data
 })
 
 //------------------------------nav-header----------------------
@@ -35,7 +35,7 @@ function showCart(){
   document.getElementById("header__cart").classList.toggle("activate");
   var cart=""; 
   var totalPrice='';
-  if(sessionStorage.getItem("Cart") == null || sessionStorage.getItem("Cart") ===  []){
+  if(sessionStorage.getItem("Cart") == null ){
   cart += "<svg style='color: var(--background-color)' xmlns='http://www.w3.org/2000/svg' width='50' height='50' fill='currentColor' class='cart-icon bi bi-cart2' viewBox='0 0 16 16'>";
   cart += "<path d='M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z'/>";
   cart += "</svg>";
@@ -115,7 +115,7 @@ function showCart(){
   for (let i = 0; i < rItem.length; i++) {
     rItem[i].onclick=function(){
       p.splice(i,1);
-      if(p=[]){
+      if(p.length == 0){
         sessionStorage.removeItem('Cart');
       }else{
       sessionStorage.setItem('Cart',JSON.stringify(p));
@@ -160,13 +160,13 @@ function showLogin() {
     html+='<div class="socials-icon  ">';
     html+='<i class="fa-brands fa-facebook"></i>';
     html+='</div>';
-    html+='<div class="">Facebook</div>';
+    html+='<div class="fb"><a href="https://www.facebook.com.vn">Facebook</a></div>';
     html+='</button>';
     html+='<button class="btn-header">';
     html+='<div class="socials-icon">';
     html+='<i class="fa-brands fa-google"></i>';
     html+='</div>';
-    html+='<div class="">Google</div>';
+    html+='<div class="gg"><a href="https://www.google.com.vn">Google</a></div>';
     html+='</button>';
     html+='</div>';
     html+='<div class="header__login__footer">';
@@ -179,7 +179,6 @@ function showLogin() {
     html+='</div>';
   }
   document.getElementById('header__login-container').innerHTML=html;
-  // console.log(document.getElementById('header__login-container'));
 }
 window.onclick = function(event) {
   if (!event.target.matches('.fa-cart-shopping,.cart_container,.header__cart-item-plus,.header__cart-item-minus,.header__cart-item-amount,.fa-minus,.fa-plus')){
@@ -207,7 +206,7 @@ function login(){
     CheckLogin();
   }
 }
-function user( phone, nameDK, pass,gender){
+function user( phone, nameDK, pass, gender){
   this.phone =phone;
   this.nameDK =nameDK;
   this.pass = pass;
@@ -229,7 +228,7 @@ function CheckLogin(){
   for(i =0; i<tmp.length;i++){
    if(NameDN === tmp[i].nameDK && tmp[i].pass === pass)
    {
-    console.log(tmp[i].gender);
+    // console.log(tmp[i].gender);
     var tmp1 = new user(tmp[i].phone,tmp[i].nameDK,tmp[i].pass,tmp[i].gender);
     loginAccount.push(tmp1)
     sessionStorage.setItem('loginAccount',JSON.stringify(loginAccount));
@@ -290,4 +289,18 @@ function pSearch1(){
   let pS=document.getElementById('search-bar__input1').value;
   sessionStorage.setItem('pSearch',pS); 
   window.location='./trangsp.html';
+}
+function toGioHang(){
+  if(sessionStorage.getItem('checkLogin')==1){
+    window.location='./giohangtrong.html'
+  }else{
+    alert("Bạn chưa đăng nhập")
+  }
+}
+function toThanhToan(){
+  if(sessionStorage.getItem('checkLogin')==1){
+    window.location='./thanhtoan.html'
+  }else{
+    alert("Bạn chưa đăng nhập")
+  }
 }

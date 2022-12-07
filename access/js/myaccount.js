@@ -32,15 +32,85 @@ if(matkhau){
     })
 }
 const choxacnhan=document.querySelector(".myaccount-body-right-top-confirm");
-if(choxacnhan){
-    choxacnhan.addEventListener("click",function(){
+
+function showWP(){
+        var waitConfirm = sessionStorage.getItem("waitConfirm") ? JSON.parse(sessionStorage.getItem("waitConfirm")) : [];
+        html="";
+        if(waitConfirm.length==0){
+            html+='<h2 style="text-align: center;">Bạn chưa có đơn hàng nào</h2>';
+        }else{
+            for (let i = 0; i < waitConfirm.length; i++) {
+                var p=waitConfirm[i];
+                var s=p.length-1;
+                html+='<div class="row">';
+                html+='<div class="col">';
+                for (let a = 0; a < s; a++) {
+                    console.log(p[a]);
+                    html+='<p style="text-align: left;margin-left: 5%;">'+p[a].Hang+'</p>';
+                    html+='</div>';
+                    html+='<div class="col">';
+                    html+='<p style="text-align: right;margin-right:20%">Chờ xác nhận</p>';
+                    html+='</div>';
+                    html+='</div>';
+                    html+='<hr class="hr_style">';
+                    html+='<div class="row" style="align-items: center">';
+                    html+='<div class="col-2"> <img class="img-order" src="./access/Img/sanpham/'+p[a].Hinhanh[0]+'" alt=""></div>';
+                    html+='<div class="col information" style="padding-left: 20px;">';
+                    html+='<p>'+p[a].TenSP+'</p>';
+                    html+='<p>Số lượng: '+p[a].quantity+'</p>';
+                    html+='</div>';
+                    html+='<div class="col price">';
+                    if(p[a].Discount>0){
+                        html+='<span style="color: red;font-size:20px">'+p[a].total+'<sup>đ</sup></span><del><span style="color: darkgray;">('+p[a].Price*p[a].quantity+')<sup>đ</sup></span></del>';
+                    }else{
+                        html+='<span style="color: red;font-size:20px">'+p[a].total+'<sup>đ</sup></span><del>';
+                    }
+                    html+='</div>';
+                    html+='</div>';
+                    html+='<hr class="hrr__style">';
+                }
+                if(p[s].discountNum>0){
+                    html+='<div class="row">';
+                    html+='<div class="col-6">Mã giảm giá áp dụng</div>';
+                    html+='<div class="col-6"  style="text-align: right; padding-right:20%">'+p[s].discount+'</div>';
+                    html+='<div class="col-6">Giá trị giảm</div>';
+                    if(p[s].discountNum>1000){
+                        html+='<div class="col-6"  style="text-align: right; padding-right:20%">'+p[s].discountNum+'<sup>đ</sup></div>';
+                    }
+                    html+='<div class="col-6"  style="text-align: right; padding-right:20%">'+p[s].discountNum+'%</div>';
+                    html+='</div>';
+                }
+                html+='<div class="row total__bill">';
+                html+='<p>Tổng số tiền: <span>'+p[s].price+'<sup>đ</sup></span></p>';
+                html+='</div>';
+                html+='<div class="row">';
+                html+='<div class="col"></div>';
+                html+='<div class="col"><button type="button" class="btn btn-view">Xem chi tiết đơn hàng</button></div>';
+                html+='<div class="col"><button type="button" onclick="huyDon('+i+')" class="btn btn-view">Hủy đơn hàng</button></div>';
+                html+='</div>';
+            }
+        }
+        document.getElementById("wait-confirm-container").innerHTML=html;
         document.querySelector(".cho-xac-nhan").style.display="block"
         document.querySelector(".cho-lay-hang").style.display="none"
         document.querySelector(".dang-giao").style.display="none"
         document.querySelector(".da-giao").style.display="none"
         document.querySelector(".da-huy").style.display="none"
         document.querySelector(".chua-co-don-hang").style.display="none"
-    })
+}
+function huyDon(a){
+    var waitConfirm = sessionStorage.getItem("waitConfirm") ? JSON.parse(sessionStorage.getItem("waitConfirm")) : [];
+    var dissmissP = sessionStorage.getItem("dissmMissP") ? JSON.parse(sessionStorage.getItem("dissmMissP")) : [];
+    for (let i = 0; i < waitConfirm.length; i++) {
+        var p=waitConfirm[i];
+        if(i == a){
+            dissmissP[dissmissP.length]=p;
+            waitConfirm.splice(i,1);
+            sessionStorage.setItem('waitConfirm',JSON.stringify(waitConfirm));
+            sessionStorage.setItem('dissmMissP',JSON.stringify(dissmissP));
+            showWP();
+        }
+    }
 }
 const cholayhang=document.querySelector(".myaccount-body-right-top-cho-lay-hang");
 if(choxacnhan){
@@ -76,16 +146,85 @@ if(dagiao){
     })
 }   
 const dahuy=document.querySelector(".myaccount-body-right-top-da-huy");
-if(dahuy){
-    dahuy.addEventListener("click",function(){
-        document.querySelector(".cho-xac-nhan").style.display="none"
-        document.querySelector(".cho-lay-hang").style.display="none"
-        document.querySelector(".dang-giao").style.display="none"
-        document.querySelector(".da-giao").style.display="none"
-        document.querySelector(".da-huy").style.display="block"
-        document.querySelector(".chua-co-don-hang").style.display="none"
-    })
+function showDaHuy(){
+    var dissmissP = sessionStorage.getItem("dissmMissP") ? JSON.parse(sessionStorage.getItem("dissmMissP")) : [];
+    html="";
+    if(dissmissP.length==0){
+        html+='<h2 style="text-align: center;">Bạn chưa có đơn hủy nào</h2>';
+    }else{
+        for (let i = 0; i < dissmissP.length; i++) {
+            var p=dissmissP[i];
+            var s=p.length-1;
+            html+='<div class="row">';
+            html+='<div class="col">';
+            for (let a = 0; a < s; a++) {
+                console.log(p[a]);
+                html+='<p style="text-align: left;margin-left: 5%;">'+p[a].Hang+'</p>';
+                html+='</div>';
+                html+='<div class="col">';
+                html+='<p style="text-align: right;margin-right:20%">Đã Hủy</p>';
+                html+='</div>';
+                html+='</div>';
+                html+='<hr class="hr_style">';
+                html+='<div class="row" style="align-items: center">';
+                html+='<div class="col-2"> <img class="img-order" src="./access/Img/sanpham/'+p[a].Hinhanh[0]+'" alt=""></div>';
+                html+='<div class="col information" style="padding-left: 20px;">';
+                html+='<p>'+p[a].TenSP+'</p>';
+                html+='<p>Số lượng: '+p[a].quantity+'</p>';
+                html+='</div>';
+                html+='<div class="col price">';
+                if(p[a].Discount>0){
+                    html+='<span style="color: red;font-size:20px">'+p[a].total+'<sup>đ</sup></span><del><span style="color: darkgray;">('+p[a].Price*p[a].quantity+')<sup>đ</sup></span></del>';
+                }else{
+                    html+='<span style="color: red;font-size:20px">'+p[a].total+'<sup>đ</sup></span><del>';
+                }
+                html+='</div>';
+                html+='</div>';
+                html+='<hr class="hrr__style">';
+            }
+            if(p[s].discountNum>0){
+                html+='<div class="row">';
+                html+='<div class="col-6">Mã giảm giá áp dụng</div>';
+                html+='<div class="col-6"  style="text-align: right; padding-right:20%">'+p[s].discount+'</div>';
+                html+='<div class="col-6">Giá trị giảm</div>';
+                if(p[s].discountNum>1000){
+                    html+='<div class="col-6"  style="text-align: right; padding-right:20%">'+p[s].discountNum+'<sup>đ</sup></div>';
+                }
+                html+='<div class="col-6"  style="text-align: right; padding-right:20%">'+p[s].discountNum+'%</div>';
+                html+='</div>';
+            }
+            html+='<div class="row total__bill">';
+            html+='<p>Tổng số tiền: <span>'+p[s].price+'<sup>đ</sup></span></p>';
+            html+='</div>';
+            html+='<div class="row">';
+            html+='<div class="col"></div>';
+            html+='<div class="col"><button type="button" onclick="muaLai('+i+')" class="btn btn-view">Mua lại</button></div>';
+            html+='<div class="col"><button type="button" class="btn btn-view">Chi tiết hủy đơn</button></div>';
+            html+='</div>';
+        }
+    }
+    document.getElementById("da_huy").innerHTML=html;
+    document.querySelector(".cho-xac-nhan").style.display="none"
+    document.querySelector(".cho-lay-hang").style.display="none"
+    document.querySelector(".dang-giao").style.display="none"
+    document.querySelector(".da-giao").style.display="none"
+    document.querySelector(".da-huy").style.display="block"
+    document.querySelector(".chua-co-don-hang").style.display="none"
 }  
+function muaLai(a){
+    var waitConfirm = sessionStorage.getItem("waitConfirm") ? JSON.parse(sessionStorage.getItem("waitConfirm")) : [];
+    var dissmissP = sessionStorage.getItem("dissmMissP") ? JSON.parse(sessionStorage.getItem("dissmMissP")) : [];
+    for (let i = 0; i < dissmissP.length; i++) {
+        var p=dissmissP[i];
+        if(i == a){
+            waitConfirm[waitConfirm.length]=p;
+            dissmissP.splice(i,1);
+            sessionStorage.setItem('waitConfirm',JSON.stringify(waitConfirm));
+            sessionStorage.setItem('dissmMissP',JSON.stringify(dissmissP));
+            showDaHuy();
+        }
+    }
+}
 const hoanhang=document.querySelector(".myaccount-body-right-top-tra-hang");
 if(hoanhang){
     hoanhang.addEventListener("click",function(){
@@ -193,4 +332,4 @@ function showTK(){
     document.getElementById('phone').innerHTML=acc[0].phone;
 
 }
-showTK()
+
