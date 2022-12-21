@@ -66,5 +66,5 @@ function LoadJson(){
 function re_search() {
     let pS=document.getElementById('search').value;
     sessionStorage.setItem('pSearch',pS); 
-    window.location='/trangsp.html';
+    window.location='./trangsp.html';
 }
