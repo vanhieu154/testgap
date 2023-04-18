@@ -31,7 +31,7 @@ function LoadJson(){
                         discountTag+="<div class='home-product-item__sale-off-percent'>"+arrP[i].Discount+"%</div>";
                         discountTag+="<div class='home-product-item__sale-off-label'>GIẢM</div>";
                         discountTag+="</div>";
-                    }
+                    }   
                     html+="<div class='col-xl-2 col-lg-3 col-4 product' id='"+arrP[i].MaSP+"'>";
                     html+="<button class='home-product-item w-100'  type='submit' name='maSp' id='"+arrP[i].MaSP+"' value='"+arrP[i].MaSP+"'>";
                     html+="<div class='home-product-item__img' style='background-image:url(./access/Img/sanpham/"+arrP[i].Hinhanh[0]+")'></div>";
